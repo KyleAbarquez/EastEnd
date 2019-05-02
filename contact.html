@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/x-icon" href="media/images/eastend_icon-01.png" />
+    <link rel="stylesheet" href="css/contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Montserrat|Nunito:200,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    
+    <title>Contact | East End Entertainment</title>
+</head>
+
+<body>
+   <div id="main" class="m-scene">
+    <div class="nav-wrapper">
+        <div class="nav">
+
+            <a href="index.html"><img src="media/images/eastend_logo.svg" alt="" class="logo"></a>
+            <div class="hamburger">
+                <div class="menu-button"></div>
+            </div>
+            <div class="nav-item-wrap">
+                <a href="projects.html" class="nav-item"><span>projects</span></a>
+                <a href="contact.html" class="nav-item active"><span>contact</span></a>
+            </div>
+        </div>
+        <div class="menu-nav">
+            <a href="projects.html" class="nav-item menu"><span>projects</span></a>
+            <a href="contact.html" class="nav-item menu"><span>contact</span></a>        
+        </div>
+    </div>
+<div class="scene-element scene-fade">
+    <div class="contact-wrap">
+        <div class="contact-info">
+          <div class="c-inner-wrap">
+               <div class="c-info">
+                    <svg class="title-svg">
+                      <text class="title-text" fill="white" fill-opacity="0" text-anchor="left" stroke="white" alignment-baseline="hanging">Carroll Middelthon</text>
+                    </svg>
+<!--
+                    <svg class="title-svg next-line">
+                      <text class="title-text" fill="white" fill-opacity="0" text-anchor="left" stroke="white" alignment-baseline="hanging"></text>
+                    </svg>
+-->
+                   <h2>Founder / Head of Development</h2>
+                   <p>carrollm@eastend-entertainment.com<br>
+                      <a class="insta" href="https://www.instagram.com/see_middelthon/"><i class="fab fa-instagram"></i> see_middelthon</a>
+                   </p>
+               </div>
+               <div class="c-info">
+                   <svg class="title-svg">
+                      <text class="title-text draken" fill="white" fill-opacity="0" text-anchor="left" stroke="white" alignment-baseline="hanging">Paige Mobley</text>
+                    </svg>
+                   <h2>Creative Director</h2>
+                   <p>paigem@eastend-entertainment.com<br>
+                      <a class="insta" href="https://www.instagram.com/paigemobley/"><i class="fab fa-instagram"></i> paigemobley</a>
+                   </p>
+               </div>
+          </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+       <div class="footer-1">
+           <p>&copy; EastEnd Entertainment 2019</p>
+           <p id="cred">Designed & developed by Willis Tiao & Kyle Abarquez</p>
+       </div>
+<!--
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook"></i></a> 
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+-->
+    </div>
+</div>
+</body>
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+    // HAMBURGER MENU 
+    $(document).ready(function(){
+        $('.hamburger').click(function(){
+            $('.menu-button').toggleClass('open');
+            $('.menu-nav').toggleClass('open');
+        }); 
+        $('.c-inner-wrap').addClass('active');
+    });
+
+</script>
